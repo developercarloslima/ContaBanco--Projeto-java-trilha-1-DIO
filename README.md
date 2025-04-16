@@ -1,18 +1,54 @@
-## Getting Started
+# 💳 Conta Banco - Projeto Java DIO Trilha 1
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Projeto simples em Java desenvolvido durante a **Trilha Java Básico** da [DIO](https://www.dio.me/).  
+O objetivo é simular a criação de uma conta bancária, praticando os primeiros conceitos da programação orientada a objetos (POO) com Java.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 📚 Conteúdo Abordado
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Criação de classes em Java
+- Atributos e métodos
+- Entrada de dados com `Scanner`
+- Tipos primitivos
+- Organização de um projeto Java
+- Boas práticas de codificação
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+---
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 🛠 Tecnologias Utilizadas
 
-## Dependency Management
+- **Java 17+**
+- **IDE IntelliJ / VS Code** (recomendado)
+- **JDK instalado na máquina**
+- **Terminal (CLI)** para execução
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+## 📂 Estrutura do Projeto
+
+```bash
+ContaBanco
+│
+├── ContaTerminal.java     # Classe principal com lógica de entrada e saída
+├── README.md              # Documentação do projeto
+└── .gitignore             # Arquivos ignorados pelo Git
+```
+## 💡 Exemplo de Execução
+
+```
+Por favor, digite o número da Agência:
+>> 067-8
+
+Digite o número da Conta:
+>> 1021
+
+Digite o nome do Cliente:
+>> Carlos
+
+Digite o saldo inicial:
+>> 237.48
+
+Olá Carlos Lima, obrigado por criar uma conta em nosso banco.
+Sua agência é 067-8, conta 1021 e seu saldo 237.48 já está disponível para saque.
+```
